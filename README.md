@@ -2,7 +2,7 @@
 
 # Object-Oriented PHP
 
-I have prepared this small documentation for future colleagues in the company where I am employed. But why not share it with everyone :). Slowly but surely introduces the reader into the world of object programming.
+I have prepared this small documentation for future colleagues in the company where I am employed. But why not share it with everyone :). Slowly but surely introduces into the world of object programming.
 
 Some languages from the beginning were designed as object-oriented, with [PHP](http://php.net) it was not the case. In its beginnings, PHP was a procedural script language dedicated exclusively to web applications. As time passed, the community sought the introduction of object-oriented concepts into the language, which was done by the release of PHP version 4.
 
