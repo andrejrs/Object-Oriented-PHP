@@ -59,12 +59,12 @@ $car = new Car("Peugeot");
 
  Class Car has one protected attribute, constructor and three methods, one of methods is special (magic) method __toString. The __toString() method allows a class to decide how it will react when it is treated like a string. For example, echo $car will print "Car: Peugeot" because we have defined that this method returns a certain string. This method cannot throw an exception from within a __toString() method. Doing so will result in a fatal error.
 
- *The constructor is optional. The PHP constructor must have the __construct name and can have arbitrarily many arguments. Classes which have a constructor method call this method on each newly-created object.
- *PHP 5 introduces a destructor concept similar to that of other object-oriented languages, such as C#. The destructor method will be called as soon as there are no other references to a particular object, or in any order during the shutdown sequence.
- *Public, private and protected represent the visibility of a attribute, a method or (as of PHP 7.1.0) a constant. 
- *Class members declared public can be accessed everywhere. 
- *Members declared protected can be accessed only within the class itself and by inheriting and parent classes. 
- *Members declared as private may only be accessed by the class that defines the member.
+ * The constructor is optional. The PHP constructor must have the __construct name and can have arbitrarily many arguments. Classes which have a constructor method call this method on each newly-created object.
+ * PHP 5 introduces a destructor concept similar to that of other object-oriented languages, such as C#. The destructor method will be called as soon as there are no other references to a particular object, or in any order during the shutdown sequence.
+ * Public, private and protected represent the visibility of a attribute, a method or (as of PHP 7.1.0) a constant. 
+ * Class members declared public can be accessed everywhere. 
+ * Members declared protected can be accessed only within the class itself and by inheriting and parent classes. 
+ * Members declared as private may only be accessed by the class that defines the member.
 
 In order to call a particular method, it is only necessary to indicate its name:
 
@@ -214,9 +214,9 @@ The $name argument is the name of the method being called. The $arguments argume
 
 To explain the abstraction, it's best to imagine a mobile phone. Each mobile phone has certain features. Now it's important to notice what is common to all mobile phones (Abstract information)? Each mobile phone provides the ability to send sms messages and call other users of the mobile phones.
 
-Nokia 3310 Features: Calling, SMS
-Nokia 765 Features: Calling, SMS, Camera
-Samsung S7 Features: Calling, SMS, FM Radio, MP3, Camera, Video Recording, Reading E-mails, OS
+* Nokia 3310 Features: Calling, SMS
+* Nokia 765 Features: Calling, SMS, Camera
+* Samsung S7 Features: Calling, SMS, FM Radio, MP3, Camera, Video Recording, Reading E-mails, OS
 
 ![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/365.20.small_.jpg)
 
