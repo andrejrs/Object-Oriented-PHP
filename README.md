@@ -8,7 +8,7 @@ The first implementation has had many weaknesses, such as problematic object ref
 
 Object-oriented software consists of several independent objects that are interrelated with attributes and operations. Attributes are properties or variables that relate to an object. Operations are methods, actions, or functions that an object can execute.
 
-![alt tag](https://raw.githubusercontent.com/andrejrs/rest-api-native-php/master/images/object.gif)
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/object.gif)
 
 The basic features of this concept are:
 * Abstraction
