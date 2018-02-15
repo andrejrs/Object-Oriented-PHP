@@ -47,6 +47,8 @@ class Car {
 }
 ```
 
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/Wordane-OOP-car-class-eg-2.jpg)
+
 Object is an individual instance of the data structure defined by a class. You define a class once and then make many objects that belong to it. Objects are also known as instance. Instantiating objects is done using the keyword new.
 
 ```
@@ -116,6 +118,8 @@ $obj = setDoors(5);
 
 Encapsulation refers to a concept where we encapsulate all the data (wapping some data in single unit) and member functions together to form an object. In basic terms, it’s the way we define the visibility of our properties and methods. When you’re creating classes, you have to ask yourself what properties and methods can be accessed outside of the class. Encapsulation is used to safe data or information in an object from other it means encapsulation is mainly used for protection purpose.
 
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/Encapsulation.jpg)
+
 Another benefit of encapsulation is that you can make the class read only or write only by providing setter or getter method.
 
 Schoolbag is one of best example of Encapsulation. School bag can keep our books, pen etc. 
@@ -152,10 +156,17 @@ Polymorphism is basically derived from the Greek which means 'many forms'. We ca
 
 Polymorphism is used to make applications more modular and extensible. Polymorphism is an concept where same function can be used for different purposes. For example function name will remain same but it make take different number of arguments and can do different task.
 
+In the picture, polymorphism is explained with the shapes.
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/polymorphism-java.png)
+
 Here's good example of polymorphic in the car. A real world analogy for polymorphism is ignition of the engine in the car.
 Everyone knows how to start a car. Just push the key in the lock and turn. The action of the engine in the event of ignition and through which all operations pass through the ignition to the user is not important for starting the engine. If you need to go somewhere, you have all the information that is needed to start the engine and drive the car.
 
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/battery-2.jpg)
+
 Another very good example is the TV that we use every day. To use the TV, you just need to take the remote control and change channels. You have a remote control that is public and anyone can access. The interior of the TV where there are various modules that are private. To use the TV, it is not necessary for the user to know how to display an image on the screen or what is happening when the button on the remote control is pressed.
+
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/tv-remote.png)
 
 Within the polymorphism there are Interfaces, Abstract Classes, Overloading.
 
@@ -164,9 +175,6 @@ Within the polymorphism there are Interfaces, Abstract Classes, Overloading.
 This is a type of polymorphism in which some or all of operators have different implementations depending on the types of their arguments. Similarly functions can also be overloaded with different implementation. Overloading in PHP provides means to dynamically "create" attributes and methods. These dynamic entities are processed via magic methods one can establish in a class for various action types.
 
 Overloading in PHP can be classified as Attribute overloading and Method overloading.
-
-
-Primer za overloading mobilni telefon, camera = 2mp, memorija = 64gb...
 
 
 #### Attribute overloading 
@@ -207,6 +215,8 @@ To explain the abstraction, it's best to imagine a mobile phone. Each mobile pho
 Nokia 3310 Features: Calling, SMS
 Nokia 765 Features: Calling, SMS, Camera
 Samsung S7 Features: Calling, SMS, FM Radio, MP3, Camera, Video Recording, Reading E-mails, OS
+
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/365.20.small_.jpg)
 
 ```
 abstract class MobilePhone {
@@ -295,7 +305,9 @@ class ExampleClass implements ExampleInterface {
 
 
 ### Abstract Class vs Interface
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/Abstract_Class_vs_Interface.png)
 
+![alt tag](https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/OpMyR.png)
 
 ## Versioning
 Version 1.0.0 - The first commit of application
